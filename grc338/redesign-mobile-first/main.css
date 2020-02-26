@@ -1,0 +1,402 @@
+/*CSS Document*/
+
+
+
+
+/* HOME PAGE */
+
+
+html {
+    font-family: 'Barlow';
+}
+
+.ginoslogo img {
+    width: auto;
+    max-width: 10em;
+    max-height: 9em;
+    padding: 2em;
+    float: left;
+   
+}
+
+
+.listitems {
+    display: inline-block;
+    text-align: center;
+}
+.listitems ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.listitems li{
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    width: 100%;
+    padding: 2em 0em 2em 0em;
+    text-align: center;
+    padding: 2em 1em;
+    text-decoration: none;
+    color: rgb(157, 44, 43);
+}
+
+
+.pizzaimage img
+{
+    transform: rotate(90deg);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 2em;
+    display: block;
+    max-height: 40em;
+}
+
+
+
+.tagline {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tagline h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(157, 44, 43);
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    
+}
+
+.order {
+    display: block;
+    background-color: rgb(157, 44, 43);
+    color: rgb(255, 255, 255);
+    padding: 2em;   
+}
+
+.hours h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    margin-bottom: .3em;
+}
+
+.hours h2 {
+    text-align: center;
+    margin-top: .2em;
+    font-size: 1em;
+}
+
+.ordernow h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    margin-bottom: .3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.ordernow h2 {
+    text-align: center;
+    margin-top: .2em;
+    font-size: 1em;
+}
+
+.ordernow h3 {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.ordernow p {
+    text-align: center;
+    margin-top: .2em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.footer {
+    width: auto;
+    display: block;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.footer h2 {
+    text-transform: uppercase;
+    color: rgb(157, 44, 43);
+    margin: 0;
+    font-size: .8em;
+    
+}
+
+.footer p{
+    font-size: .8em;
+    margin-bottom: 0;
+}
+
+.footer ul{
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    list-style-type: none;
+    font-size: .8em;
+    color: rgb(157, 44, 43);
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* MENU PAGE */
+
+
+
+
+
+
+
+.menu {
+    display: inline-block;
+    padding: 3em;
+    margin-bottom: 0;
+    font-size: .8em;
+}
+
+.menu h1 {
+   color: rgb(157, 44, 43);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.menu h2 {
+    text-transform: uppercase;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.menu h3 {
+    text-transform: uppercase;
+    margin-top: 3em;
+    margin-bottom: 0;
+    
+}
+
+
+.menu ul {
+    margin-left: 3em;
+}
+
+.menu p {
+    margin-top: 0;
+    font-size: .9em;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu h5 {
+    color: rgb(157, 44, 43);
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.menu h6 {
+    font-size: 1 em;
+    margin-top: .5em;
+}
+
+.pizzatoppings li {
+    line-height: 2em;
+}
+
+.pizzatoppings h5 {
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+.pizzadescription {
+    font-style: italic;
+}
+
+.aboutpizza {
+    text-align: center;
+    display: inline-block;
+    line-height: 1.2em;
+}
+
+
+
+
+/* ABOUT US PAGE */
+
+
+
+
+.aboutus {
+    display: inline-block;
+    padding: 3em;
+    margin-bottom: 0;
+    font-size: .8em;
+    width: 100%;
+
+}
+
+.aboutus h1 {
+    color: rgb(157, 44, 43);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+.aboutusimage img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+}
+
+.aboutus h2 {
+    text-transform: uppercase;
+    color: rgb(157, 44, 43);
+    margin-top: 2em;
+}
+
+.aboutus p{
+    padding: 0em 4em 0em 4em;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+.locations {
+    padding: 0em 6em 0em 6em;
+}
+
+.locations p{
+    line-height: 1.4em;
+}
+
+
+
+/* FUNDRAISING PAGE */
+
+
+
+.funds {
+    display: inline-block;
+    padding: 2em;
+    font-size: .8em;
+}
+
+.funds h1 {
+    color: rgb(157, 44, 43);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+.pizzadoughimage img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+    max-height: 40em;  
+}
+
+.pizzadoughimage {
+    margin-bottom: 3em;
+}
+
+.funds h2 {
+    text-transform: uppercase;
+    color: rgb(157, 44, 43);
+    margin-top: 2em;
+}
+
+.communitydough {
+    padding: 0em 4em 2em 4em;
+    line-height: 2em;
+    font-size: .9em;
+}
+
+.doughspecifics {
+    padding: 0em 0em 0em 7em;
+}
+
+.doughspecifics h3 {
+    line-height: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: rgb(157, 44, 43);
+}
+
+.doughspecifics p {
+    margin-top: 0;
+    line-height: 2em;
+    max-width: 80%;
+    font-size: .9em
+}
+
+.doughspecifics ol {
+    line-height: 2em;
+    padding: 0em;
+    margin-bottom: 0;
+}
+
+.doughspecifics li {
+    line-height: 2em;
+    margin-bottom: 2em;
+    font-size: .9em;
+}
+
+.closing{
+    padding: 0em 4em 0em 4em;
+    line-height: 2em;
+    font-size: .9em;
+}
+
+.signature {
+    padding: 0;
+    margin-top: 0;
+    font-size: 1.3em;
+    color: rgb(157, 44, 43);
+    
+}
+
+.funds h5 {
+    margin-top: 2em;
+    font-size: .8em;
+    font-style: italic
+}
