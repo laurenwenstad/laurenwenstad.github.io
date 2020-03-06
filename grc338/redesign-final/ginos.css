@@ -1,7 +1,8 @@
 /*CSS DOCUMENT*/
 
 html {
-    padding: 2em;
+    padding: 0;
+    margin: 0;
     font-family: 'Barlow';
 }
 
@@ -15,11 +16,16 @@ html {
    
 }
 
+.listitems ul {
+     padding: 0;
+   
+}
+
 .listitems {
     display: table;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding: 0;
 
 }
 
@@ -45,16 +51,27 @@ img
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
-    width: 70%;
+    width: 100%;
     padding: 2em;
     display: block;
     max-width: 40em;
     margin-top: 3em;
 }
 
-.container {
-    display: inline-block;
+.cheesepizzaimage img {
+    display: block;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+        max-width: 50em;
+        margin: auto;
+
 }
 
 a {
@@ -68,7 +85,6 @@ h1{
 }
 
 h2 {
-    text-align: center;
     text-transform: uppercase;
     margin-top: 2em;
 }
@@ -98,6 +114,8 @@ p {
 li {
     list-style: none;
 }
+
+
 
 .tagline {
     display: block;
@@ -200,7 +218,6 @@ li {
 
 
 .aboutpizza p {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -264,6 +281,7 @@ li a {
     
 .aboutpizza p {
     max-width: 40em;
+    margin: 0;
     }
     
     
@@ -284,13 +302,22 @@ li a {
     
     .aboutpizza p {
     max-width: 50em;
+    margin: 0;
+    padding: 0;
     }
     
+
     .menu {
-        margin-left: 2em;
     }
 
     
+    .aboutpizza h2 {
+        margin: 0;
+    }
+    
+    .aboutpizza p {
+        margin: 0;
+    }
     
 }
 
