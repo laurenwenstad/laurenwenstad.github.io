@@ -1,0 +1,65 @@
+/*CSS DOCUMENT*/
+
+*{
+    box-sizing: border-box;
+}
+
+body,html, h1, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Nav Bar Code is from YouTube Tutorial - https://www.youtube.com/watch?v=Y6DwspK_wnM*/
+header, ul {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+ul {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    list-style: none;
+}
+
+nav a{
+    font-size: 12px;
+    font-size: calc(12px + 1vw);
+    text-align: center;
+    color: #635670;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    padding: 10px 0; 
+    display: block;
+}
+
+nav a:hover{
+    color: #ebd17f;
+    transition: 0.5s;
+}
+
+h1 img{
+    display: block;
+}
+
+/*media quiries for phone size*/
+@media only screen and (max-width: 480px) {
+    nav li:first-child{
+        display: none; /*removing the "home" tab to save space. "Home" can be accessed by clicking on the logo*/
+    }
+    
+    ul{
+        grid-template-columns: repeat(3, 1fr); /*creating a 3 column grid*/
+    }
+}
+
+
